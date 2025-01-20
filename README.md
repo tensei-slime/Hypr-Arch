@@ -28,7 +28,9 @@ $ ./base-install.sh
 $ ./post-install.sh
 ```
 ## Changes
-# 1. Keybinds: [Win = Windows Key / Super Key]
+1. Keybinds:
+
+ **[Win = Windows Key / Super Key]**
 
 | KeyBinds | Description |
 | --- | --- |
