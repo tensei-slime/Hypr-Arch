@@ -52,4 +52,3 @@ $ ./post-install.sh
 |Win + (1234...)|Moves to Workspace 1234...|
 |Win + Shift + (1234...)|Moves active Window to 1234.. Workspace|
 
-
