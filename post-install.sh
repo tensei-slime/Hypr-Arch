@@ -14,8 +14,8 @@ if id "shinigami" &>/dev/null; then
   echo "User found"
 
   # Copy directories and files
-  cp -r config /home/shinigami/.config
-  cp -r Pictures /home/shinigami/Pictures
+  mv config /home/shinigami/.config
+  mv Pictures /home/shinigami/Pictures
   mv zsh/.zshrc /home/shinigami/.zshrc
 
 else
@@ -33,8 +33,8 @@ else
   clear
 
   # Copy directories and files
-  cp -r config /home/shinigami/.config
-  cp -r Pictures /home/shinigami/Pictures
+  mv config /home/shinigami/.config
+  mv Pictures /home/shinigami/Pictures
   mv zsh/.zshrc /home/shinigami/.zshrc
 fi
 
@@ -51,10 +51,10 @@ else
   cd yay-git/
   makepkg si
   clear
-  echo "Installing Necessary"
+  echo "[-] Installing Necessary"
   yay -S brave-bin code mpvpaper swaylock-effects-improved-git pywal
   clear
-  sudo pacman -S neovim
+  sudo pacman -S --noconfirm neovim
   clear
   echo "[-] Installation Finished !"
 fi
