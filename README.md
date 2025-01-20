@@ -5,9 +5,10 @@ This is JakooLit's Hyprland with some minor changes made for my personal use.
 **Please read the documentation first before installing**
   _**https://github.com/JakooLit/Arch-Hyprland.git**_
 
-**If possible Please Officially installed it form**
+**If possible Please Officially install it form**
 
 **https://github.com/JaKooLit/Arch-Hyprland.git**
+
 # **WARNING ARCH-DISROS ONLY !!!**
 1. Clone this repo:
 ```bash
