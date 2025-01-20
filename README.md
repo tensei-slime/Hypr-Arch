@@ -8,7 +8,7 @@ This is JakooLit's Hyprland with some minor changes made for my personal use.
 **If possible Please Officially installed it form**
 
 **https://github.com/JaKooLit/Arch-Hyprland.git**
-
+# **WARNING ARCH-DISROS ONLY !!!**
 1. Clone this repo:
 ```bash
 $ git clone https://github.com/tensei-slime/Hypr-Arch/git ~/Hypr-Arch
