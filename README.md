@@ -1,5 +1,5 @@
 ## Hypr-Arch *[Credit: JaKooLit]*
-This is a modified version of JakooLit's Hyprland with some minor changes made for my personal use. 
+This is JakooLit's Hyprland with some minor changes made for my personal use. 
 ## Installation
 
 **Please read the documentation first before installing**
@@ -30,37 +30,21 @@ $ ./post-install.sh
 1. Keybinds:
 
 | KeyBinds | Description |
-
 | --- | --- |
-
 | Win + H | Launch Hint [Some keybinds are not same as listed in the hints] |
-
 | Win + Enter | Launch Kitty (Default Terminal) |
-
 | Win + Q | Kills Active |
-
 | Win + A | Launch Rofi-Wayland |
-
 | Win + W | Wallpaper Select |
-
 | Win + Shift + W | Video Wallaper select | 
-
 | Win + X | Launch Brave Browser |
-
 | Win + C | Launch VsCode |
-
 | Win + E | Quick Edit Configs |
-
 | Win + K | Refresh Waybar |
-
 | Win + P | Launch Wlogout [Power Option Menu] |
-
 | Win + L | Lock Screen |
-
 | Win + N | Notification Panel |
-
 | Win + (1234...) | Moves to Workspace 1234... |
-
 | Win + Shift + (1234...) | Moves active Window to 1234.. Workspace |
 
 
