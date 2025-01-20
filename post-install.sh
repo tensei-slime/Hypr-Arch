@@ -29,7 +29,9 @@ else
   echo "[-] executing: sudo useradd -m -G wheel -s /bin/zsh shinigami"
 
   sudo useradd -m -G wheel -s /bin/zsh shinigami
-
+  echo "Enter passord for Shinigami"
+  passwd shinigami
+  
   clear
 
   # Copy directories and files
