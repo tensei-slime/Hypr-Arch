@@ -7,56 +7,43 @@
 cd ~/
 cd Hypr-Arch/
 clear
-echo "[-] UserName Must be shinigami"
-echo "Checking available users"
+# Get the current user
+USER=$(whoami)
 
-if id "shinigami" &>/dev/null; then
-  echo "User found"
+# Copy the individual files/directories from 'config' to the current user's .config
+for dir in config/*; do
+  if [ -d "$dir" ]; then
+    echo "Copying directory: $dir"
+    cp -r "$dir" "/home/$USER/.config/"
+  elif [ -f "$dir" ]; then
+    echo "Copying file: $dir"
+    cp "$dir" "/home/$USER/.config/"
+  fi
+done
 
-  # Copy directories and files
-  mv config /home/shinigami/.config
-  mv Pictures /home/shinigami/Pictures
-  mv zsh/.zshrc /home/shinigami/.zshrc
+# Copy Pictures and .zshrc files
+cp -r Pictures /home/$USER/Pictures
+cp zsh/.zshrc /home/$USER/.zshrc
 
-else
-  echo "[-] User shinigami not found!"
-  echo "[-] Please make another user named 'shinigami'."
-  echo "If you want to cancel making another user, press [Ctrl + C]."
-  echo "Wait 5 seconds to continue..."
-
-  sleep 5
-  clear
-  echo "[-] executing: sudo useradd -m -G wheel -s /bin/zsh shinigami"
-
-  sudo useradd -m -G wheel -s /bin/zsh shinigami
-  echo "Enter passord for Shinigami"
-  passwd shinigami
-  
-  clear
-
-  # Copy directories and files
-  mv config /home/shinigami/.config
-  mv Pictures /home/shinigami/Pictures
-  mv zsh/.zshrc /home/shinigami/.zshrc
-fi
-
+# Check if yay is installed and install packages
 if command -v yay &>/dev/null; then
-  echo "Installing Necessary"
+  echo "Installing Necessary packages..."
   yay -S brave-bin code mpvpaper swaylock-effects-improved-git pywal
   clear
   sudo pacman -S --noconfirm neovim
   clear
-  echo "[-] Installation Finished !"
-
+  echo "[-] Installation Finished!"
 else
+  # Install yay if it's not installed
   git clone https://aur.archlinux.org/yay-git.git
   cd yay-git/
-  makepkg si
+  makepkg -si
+  cd ..
   clear
-  echo "[-] Installing Necessary"
+  echo "Installing Necessary packages..."
   yay -S brave-bin code mpvpaper swaylock-effects-improved-git pywal
   clear
   sudo pacman -S --noconfirm neovim
   clear
-  echo "[-] Installation Finished !"
+  echo "[-] Installation Finished!"
 fi
