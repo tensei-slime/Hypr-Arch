@@ -25,13 +25,13 @@
 	
 "modules-left": [
 	"mpris",
-	"backlight#2",
+  "backlight#2",
 	"pulseaudio#1",
 	],
   
 "modules-center": [
 	"clock",
-	"hyprland/workspaces"
+  "hyprland/workspaces",
 	], 
 	
 "modules-right": [
