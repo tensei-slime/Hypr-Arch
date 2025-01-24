@@ -2,7 +2,7 @@
 This is JakooLit's Hyprland with some minor changes made for my personal use. 
 
 <p align="center">
-  <img src="https://github.com/tensei-slime/Hypr-Arch/blob/master/Pictures/Example.png" width="1000"/>
+  <img src="https://github.com/tensei-slime/Hypr-Arch/blob/master/Pictures/example.png" width="1000"/>
 </p>
 
 ## Installation
