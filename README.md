@@ -1,4 +1,4 @@
-## Hypr-Arch *[Credit: JaKooLit]*
+## Hypr-Arch <a href="https://github.com/JaKooLit">*[Credit: JaKooLit]*</a>
 This is JakooLit's Hyprland with some minor changes made for my personal use. 
 
 <p align="center">
