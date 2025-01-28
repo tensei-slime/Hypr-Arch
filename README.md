@@ -53,7 +53,7 @@ $ ./post-install.sh
 | Win + L | Lock Screen |
 | Win + N | Notification Panel |
 | Win + (1234...) | Moves to Workspace 1234... |
-| Win + Shift + (1234...) | Moves active Window to 1234.. Workspace |
+| Win + Shift + (1234...) | Moves active Window to Workspace 1234... |
 
 
 
