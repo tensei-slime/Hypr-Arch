@@ -39,7 +39,7 @@ $ ./post-install.sh
 
 | KeyBinds | Description |
 | --- | --- |
-| Win + H | Launch Hint [Some keybinds are not same as listed in the hints] |
+| Win + H | Launch Keybinds Hint |
 | Win + Enter | Launch Kitty (Default Terminal) |
 | Win + Q | Kills Active |
 | Win + A | Launch Rofi-Wayland |
