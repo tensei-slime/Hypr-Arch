@@ -49,30 +49,32 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 " enter" "Terminal" "(kitty)" \
 " SHIFT enter" "DropDown Terminal" "(kitty-pyprland)" \
 " SHIFT K" "Searchable Keybinds" "(Keybinds)" \
-" A" "Desktop Overview" "(AGS Overview)" \
-" D" "App Launcher" "(rofi-wayland)" \
+" D" "Desktop Overview" "(AGS Overview)" \
+" A" "App Launcher" "(rofi-wayland)" \
 " T" "Open File Manager" "(Thunar)" \
+" X" "Open Browser" "(Brave)" \
+" C" "Open Vscode" "(Code)" \
 " S" "Google Search" "(rofi)" \
 " Q" "close active window" "(not kill)" \
 " Shift Q " "kills an active window" "(kill)" \
 " Z" "Desktop Zoom" "(pyprland)" \
 " Alt V" "Clipboard Manager" "(cliphist)" \
 " W" "Choose wallpaper" "(Wallpaper Menu)" \
-" Shift W" "Choose wallpaper effects" "(imagemagick + swww)" \
+" Shift W" "Choose Video Wallpaper" "(mpvpaper + mp4 file)" \
 "CTRL ALT W" "Random wallpaper" "(via swww)" \
 " B" "Hide/UnHide Waybar" "waybar" \
 " CTRL B" "Choose waybar styles" "(waybar styles)" \
 " ALT B" "Choose waybar layout" "(waybar layout)" \
 " ALT R" "Reload Waybar swaync Rofi" "CHECK NOTIFICATION FIRST!!!" \
-" SHIFT N" "Launch Notification Panel" "swaync Notification Center" \
+" N" "Launch Notification Panel" "swaync Notification Center" \
 " Print" "screenshot" "(grim)" \
 " Shift Print" "screenshot region" "(grim + slurp)" \
 " Shift S" "screenshot region" "(swappy)" \
 " CTRL Print" "screenshot timer 5 secs " "(grim)" \
 " CTRL SHIFT Print" "screenshot timer 10 secs " "(grim)" \
 "ALT Print" "Screenshot active window" "active window only" \
-"CTRL ALT P" "power-menu" "(wlogout)" \
-"CTRL ALT L" "screen lock" "(hyprlock)" \
+" P" "power-menu" "(wlogout)" \
+" L" "screen lock" "(hyprlock)" \
 "CTRL ALT Del" "Hyprland Exit" "(SAVE YOUR WORK!!!)" \
 " F" "Fullscreen" "Toggles to full screen" \
 " ALT L" "Toggle Dwindle | Master Layout" "Hyprland Layout" \
