@@ -14,7 +14,7 @@ This is JakooLit's Hyprland with some minor changes made for my personal use.
 
 **https://github.com/JaKooLit/Arch-Hyprland.git**
 
-# **WARNING ARCH-DISROS ONLY !!!**
+# **WARNING ARCH-DISTROS ONLY !!**
 1. Clone this repo:
 ```bash
 $ git clone https://github.com/tensei-slime/Hypr-Arch/git ~/Hypr-Arch

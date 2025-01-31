@@ -4,9 +4,6 @@
 
 #[This is made for myself]
 
-cd ~/
-cd Hypr-Arch/
-clear
 # Get the current user
 USER=$(whoami)
 
@@ -21,9 +18,10 @@ for dir in config/*; do
   fi
 done
 
-# Copy Pictures and .zshrc files
-cp -r Pictures /home/$USER/Pictures
-cp zsh/.zshrc /home/$USER/.zshrc
+# Move Pictures and .zshrc files
+mv Pictures /home/$USER/
+mv zsh/.zshrc /home/$USER/
+mv Videos /home/$USER/
 
 # Check if yay is installed and install packages
 if command -v yay &>/dev/null; then
