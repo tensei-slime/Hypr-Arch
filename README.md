@@ -17,20 +17,20 @@ This is JakooLit's Hyprland with some minor changes made for my personal use.
 # **WARNING ARCH-DISTROS ONLY !!**
 1. Clone this repo:
 ```bash
-$ git clone https://github.com/tensei-slime/Hypr-Arch/git ~/Hypr-Arch
+git clone https://github.com/tensei-slime/Hypr-Arch/git ~/Hypr-Arch
 ```
 2. Cd and chmod :
 ```bash
-$ cd Hypr-Arch && chmod +x base-install.sh && chmod +x post-install.sh
+cd Hypr-Arch && chmod +x base-install.sh && chmod +x post-install.sh
 ```
 3. Base Install: [this install JaKooLit 's Hyprland]
 ```bash
-$ ./base-install.sh
+./base-install.sh
 ```
 
 4. Post Install: [this install's my setup]
 ```bash
-$ ./post-install.sh
+./post-install.sh
 ```
 ## Changes
 1. Keybinds:
