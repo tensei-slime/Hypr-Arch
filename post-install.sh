@@ -18,10 +18,21 @@ for dir in config/*; do
   fi
 done
 
-# Move Pictures and .zshrc files
-mv Pictures /home/$USER/
-mv zsh/.zshrc /home/$USER/
-mv Videos /home/$USER/
+for file in Pictures/wallpapers/*; do
+  if [ -f "$file" ]; then
+    echo "Copying wallpapers..."
+    cp -r "$file" "/home/$USER/Pictures/wallpapers"
+  fi
+done
+
+for video in Video/wallpapers/*; do
+  if [ -d "$video" ]; then
+    echo "Copying video_live_wallpapers..."
+    cp -r "$video" "/home/$USER/Videos/wallpapers"
+  fi
+done
+echo "moving .zshrc"
+mv zsh/.zshrc /home/$USER/.zshrc
 
 # Check if yay is installed and install packages
 if command -v yay &>/dev/null; then
