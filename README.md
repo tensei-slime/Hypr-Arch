@@ -1,4 +1,4 @@
-## Hypr-Arch <a href="https://github.com/JaKooLit">**[Credit: JaKooLit]**</a>
+## 🤍 Hypr-Arch <a href="https://github.com/JaKooLit">**[Credit: JaKooLit]**</a>
 This is JakooLit's Hyprland with some minor changes made for my personal use. 
 
 <p align="center">
@@ -20,14 +20,14 @@ This is JakooLit's Hyprland with some minor changes made for my personal use.
 
 ## Installation
 
-**Please read the documentation first before installing**
+**⚠️Please read the documentation first before installing**
   _**https://github.com/JakooLit/Arch-Hyprland.git**_
 
 **If possible Please Officially install it from**
 
 **https://github.com/JaKooLit/Arch-Hyprland.git**
 
-## WARNING THIS SCRIPT IS FOR ARCH-DISTROS ONLY
+## ⚠️ WARNING THIS SCRIPT IS FOR ARCH-DISTROS ONLY
 
 1. Clone this repo:
 ```bash
@@ -39,7 +39,7 @@ cd Hypr-Arch
 ./base-install.sh
 ```
 > [!NOTE]
-> Recommended to Reboot After base install  
+> Recommended to Reboot After base install 😇  
 
 3. Post-Install: [this install's my setup]
 ```bash
