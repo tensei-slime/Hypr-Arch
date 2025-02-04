@@ -1,4 +1,4 @@
-## Hypr-Arch <a href="https://github.com/JaKooLit">*[Credit: JaKooLit]*</a>
+## Hypr-Arch <a href="https://github.com/JaKooLit">**[Credit: JaKooLit]**</a>
 This is JakooLit's Hyprland with some minor changes made for my personal use. 
 
 <p align="center">
@@ -7,10 +7,11 @@ This is JakooLit's Hyprland with some minor changes made for my personal use.
 
 <details>
   <summary>
-    Screenshots
+    📷 Screenshots
   </summary>
 <p align="center">
-  
+  <img align="center" src="https://github.com/tensei-slime/Hypr-Arch/blob/master/Screenshots/pic4.png" width="49%" />    <img align="center" src="https://github.com/tensei-slime/Hypr-Arch/blob/master/Screenshots/pic3.png" width="49%" />
+    <img align="center" src="https://github.com/tensei-slime/Hypr-Arch/blob/master/Screenshots/pic2.png" width="49%" />  <img align="center" src="https://github.com/tensei-slime/Hypr-Arch/blob/master/Screenshots/pic1.png" width="49%" /> 
 </p>
   
 </details>
