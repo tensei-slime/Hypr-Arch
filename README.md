@@ -1,8 +1,7 @@
-### [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=100&multiline=true&width=470&height=80&lines=Slow+Development+;Last+Year+At+School)](https://git.io/typing-svg)
 
 ## 🤍 Hypr-Arch <a href="https://github.com/JaKooLit">**[Credit: JaKooLit]**</a>
 This is JakooLit's Hyprland with some minor changes made for my personal use. 
-
+- *💌 Slow development because it's my last year of school, and I'm a bit busy. Sorry 😇*
 <p align="center">
   <img src="https://github.com/tensei-slime/Hypr-Arch/blob/master/Pictures/example.png" width="1000"/>
 </p>
