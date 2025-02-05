@@ -1,3 +1,5 @@
+### [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=100&multiline=true&width=470&height=80&lines=Slow+Development+;Last+Year+At+School)](https://git.io/typing-svg)
+
 ## 🤍 Hypr-Arch <a href="https://github.com/JaKooLit">**[Credit: JaKooLit]**</a>
 This is JakooLit's Hyprland with some minor changes made for my personal use. 
 
