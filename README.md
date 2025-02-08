@@ -1,6 +1,6 @@
 ## 🤍 Hypr-Arch <a href="https://github.com/JaKooLit">**[Credit: JaKooLit]**</a>
 This is JakooLit's Hyprland with some minor changes made for my personal use. 
-- *💌 Sorry for the slow development . It's my last year at school and I also a bit busy. 😇*
+- *💌 Sorry for the slow development . It's my last year at school 2025~2026 and I also a bit busy. 😇*
 <p align="center">
   <img src="https://github.com/tensei-slime/Hypr-Arch/blob/master/Pictures/example.png" width="1000"/>
 </p>
