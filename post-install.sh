@@ -40,7 +40,8 @@ if command -v yay &>/dev/null; then
   yay -S mpvpaper swaylock-effects-improved-git pywal
   sudo pacman -S --noconfirm neovim firefox
   clear
-  echo "[-] Installation Finished!"
+  git clone https://github.com/LazyVim/starter ~/.config/nvim
+  echo "[-] Installation Finished! now please type 'nvim' and wait till everything is installed and write ':q' to quit !"
 else
   # Install yay if it's not installed
   git clone https://aur.archlinux.org/yay-git.git
@@ -52,5 +53,6 @@ else
   yay -S mpvpaper swaylock-effects-improved-git pywal
   sudo pacman -S --noconfirm neovim firefox
   clear
-  echo "[-] Installation Finished!"
+  git clone https://github.com/LazyVim/starter ~/.config/nvim
+  echo "[-] Installation Finished! now please type 'nvim' and wait till everything is installed and write ':q' to quit ! "
 fi
